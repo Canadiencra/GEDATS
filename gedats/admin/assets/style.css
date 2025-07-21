@@ -1,0 +1,92 @@
+/* ========== FOND GLOBAL ET TEXTE ========== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* ========== SIDEBAR FIXE ========== */
+.bg-dark {
+    background-color: #1c1c2e !important;
+}
+
+.bg-dark .nav-link {
+    color: #bbb;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.bg-dark .nav-link:hover,
+.bg-dark .nav-link.active {
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+/* ========== CARDS DASHBOARD ========== */
+.card {
+    border-radius: 12px;
+}
+
+.card .card-body h6 {
+    color: #666;
+    font-size: 14px;
+}
+
+.card .card-body h4 {
+    font-size: 22px;
+    color: #000;
+}
+
+/* ========== BUTTONS ========== */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* ========== FORMULAIRES ========== */
+.form-control {
+    border-radius: 6px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    border-color: #0d6efd;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    font-size: 14px;
+    color: #777;
+    background-color: #f1f1f1;
+}
+
+/* ========== UTILITAIRES ========== */
+.rounded-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========== MEDIA QUERY ========== */
+@media (max-width: 768px) {
+    .bg-dark {
+        width: 100% !important;
+        height: auto !important;
+        padding: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
